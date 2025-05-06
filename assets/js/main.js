@@ -81,7 +81,7 @@ let activePage = () => {
     sections.forEach(section => {
         section.classList.remove('active')
     })
-
+    menuIcon.classList.add('fa-bars'); // Restore the bars icon
     menuIcon.classList.remove('fa-xmark');
     navbar.classList.remove("active")
     // navbar.classList.add("fa-bars")

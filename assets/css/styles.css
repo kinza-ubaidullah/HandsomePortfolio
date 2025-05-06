@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta+Malar:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+     font-family: "Inter", sans-serif;
     border: none;
     outline: none;
 }
@@ -207,7 +209,7 @@ section.active {
 }
 
 .home-details p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin: 1rem 0 2.5rem;
 }
 
@@ -396,7 +398,7 @@ section.active {
 }
 
 .services-box h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0.5rem 0 2rem;
     text-transform: capitalize;
     transition: all 0.5s;
@@ -407,8 +409,9 @@ section.active {
 }
 
 .services-box p {
-    font-size: 1.6rem;
-    width: 70%;
+    font-size: 1.4rem;
+    width: 80%;
+    line-height: 1.5;
 }
 
 /* services section end */
@@ -432,6 +435,7 @@ section.active {
 
 .resume-box .desc {
     margin: 3rem 0 2.5rem;
+    width: 80%;
 }
 
 .resume-box .btn-resume {
@@ -529,7 +533,7 @@ section.active {
 
 /* skill */
 .resume-detail.skills .resume-list {
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     height: auto;
     overflow: visible;
 }
@@ -844,7 +848,7 @@ section.active {
 
 @media screen and (max-width: 1200px) {
     html {
-        font-size: 55%;
+        font-size: 60%;
     }
 }
 
@@ -863,7 +867,7 @@ section.active {
 }
 @media screen and (max-width: 768px) {
     #menu-icon {
-        display: block;
+        display: block!important;
     }
     nav {
         position: absolute;
